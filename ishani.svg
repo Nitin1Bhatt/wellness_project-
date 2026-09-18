@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ishaniBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5EFEB" />
+      <stop offset="40%" stop-color="#EFE7DD" />
+      <stop offset="100%" stop-color="#DDCFBE" />
+    </linearGradient>
+    <radialGradient id="haloGlow" cx="50%" cy="32%" r="45%">
+      <stop offset="0%" stop-color="#FAF5EE" stop-opacity="0.9" />
+      <stop offset="60%" stop-color="#F2E6D4" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#E5D6C2" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="linenWarm" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#ECE5DA" />
+    </linearGradient>
+    <linearGradient id="terracottaAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C28B47" />
+      <stop offset="100%" stop-color="#B66E43" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Frame -->
+  <rect width="600" height="750" fill="url(#ishaniBg)" />
+  <circle cx="300" cy="280" r="230" fill="url(#haloGlow)" />
+  
+  <!-- Subtle Rishikesh Sacred Archway Motif -->
+  <path d="M120 750 L120 300 C120 180 200 120 300 120 C400 120 480 180 480 300 L480 750" fill="none" stroke="#C28B47" stroke-width="1.5" stroke-dasharray="6,6" opacity="0.35" />
+
+  <!-- Instructor Portrait: Graceful, Serene Yogini (Ishani) -->
+  <g transform="translate(300, 310)">
+    <!-- Gentle Aura Circle -->
+    <circle cx="0" cy="-20" r="140" fill="#F8F3EA" opacity="0.8" />
+    
+    <!-- Hair Bun & Elegant Chignon -->
+    <circle cx="0" cy="-145" r="42" fill="#221A15" />
+    <ellipse cx="0" cy="-175" rx="24" ry="20" fill="#2B211B" />
+    <!-- Fine Wooden Hairpin / Pin Accent -->
+    <line x1="-30" y1="-185" x2="32" y2="-165" stroke="#C28B47" stroke-width="3" stroke-linecap="round" />
+
+    <!-- Head & Neck -->
+    <path d="M-18 -55 L-18 -20 C-18 5 -10 15 0 15 C10 15 18 5 18 -20 L18 -55 Z" fill="#D7B596" />
+    <ellipse cx="0" cy="-78" rx="42" ry="52" fill="#DFBF9F" />
+    
+    <!-- Facial Features: Serene, Eyes gently downcast in meditative awareness -->
+    <!-- Eyebrows -->
+    <path d="M-28 -96 Q-18 -102 -8 -96" stroke="#2B211B" stroke-width="2.5" fill="none" stroke-linecap="round" />
+    <path d="M8 -96 Q18 -102 28 -96" stroke="#2B211B" stroke-width="2.5" fill="none" stroke-linecap="round" />
+    <!-- Eyelashes / Meditative closed eyes -->
+    <path d="M-26 -84 Q-18 -76 -10 -84" stroke="#382E28" stroke-width="2.2" fill="none" stroke-linecap="round" />
+    <path d="M10 -84 Q18 -76 26 -84" stroke="#382E28" stroke-width="2.2" fill="none" stroke-linecap="round" />
+    <!-- Delicate nose line -->
+    <path d="M0 -90 L1 -68 Q-2 -64 -5 -66" stroke="#C29A78" stroke-width="1.8" fill="none" stroke-linecap="round" />
+    <!-- Gentle calm smile -->
+    <path d="M-12 -54 Q0 -48 12 -54" stroke="#A75A38" stroke-width="2.2" fill="none" stroke-linecap="round" />
+    
+    <!-- Small subtle bindi / focus center -->
+    <circle cx="0" cy="-98" r="2.2" fill="#B66E43" />
+
+    <!-- Natural Minimalist Linen Shawl & Kurta Attire -->
+    <!-- Shoulders & Upper Body -->
+    <path d="M-110 90 C-95 -10 -40 -35 -20 -20 L20 -20 C40 -35 95 -10 110 90 L130 440 L-130 440 Z" fill="url(#linenWarm)" />
+    
+    <!-- Terracotta Linen Scarf / Angavastram Drape -->
+    <path d="M-60 -10 C-30 60 -40 220 -30 440 L15 440 C10 240 20 80 50 -10 C30 -25 -40 -25 -60 -10 Z" fill="url(#terracottaAccent)" opacity="0.9" />
+
+    <!-- Hands in Anjali Mudra (Sacred Heart Center Prayer) -->
+    <g transform="translate(0, 90)">
+      <!-- Palms pressed lightly together -->
+      <path d="M-12 -28 C-8 -42 0 -50 0 -50 C0 -50 8 -42 12 -28 C15 -10 12 25 0 35 C-12 25 -15 -10 -12 -28 Z" fill="#D7B596" />
+      <line x1="0" y1="-48" x2="0" y2="28" stroke="#B89476" stroke-width="1.5" />
+      <!-- Cuffs -->
+      <path d="M-35 25 Q-15 15 0 28 Q15 15 35 25" stroke="#FFFFFF" stroke-width="5" fill="none" />
+    </g>
+  </g>
+
+  <!-- Bottom Badge Strip -->
+  <rect x="50" y="660" width="500" height="60" rx="30" fill="#FAF7F2" stroke="#E2D6C5" stroke-width="1.5" />
+  <text x="300" y="696" font-family="'Cormorant Garamond', serif" font-size="20" font-weight="600" fill="#201A15" text-anchor="middle" letter-spacing="1">ISHANI · FOUNDER &amp; LEAD MASTER</text>
+</svg>

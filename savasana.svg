@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="savBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FAF7F2" />
+      <stop offset="70%" stop-color="#EFE6DA" />
+      <stop offset="100%" stop-color="#DDD0BF" />
+    </linearGradient>
+    <radialGradient id="savGlow" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#E5D6C0" stop-opacity="0.1" />
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#savBg)" />
+  <circle cx="400" cy="270" r="210" fill="url(#savGlow)" />
+  <line x1="80" y1="420" x2="720" y2="420" stroke="#D1C3AF" stroke-width="2" />
+  
+  <!-- Restorative Mat & Bolster Support -->
+  <rect x="180" y="415" width="440" height="10" rx="5" fill="#B66E43" opacity="0.35" />
+  <!-- Under-knee Bolster -->
+  <ellipse cx="440" cy="408" rx="40" ry="12" fill="#E2D6C5" stroke="#CBBBA7" stroke-width="1.5" />
+  <!-- Head pillow support -->
+  <ellipse cx="230" cy="410" rx="25" ry="10" fill="#E2D6C5" stroke="#CBBBA7" stroke-width="1.5" />
+
+  <!-- Savasana Prone Supine Stillness -->
+  <g transform="translate(400, 420)" fill="#251E19">
+    <!-- Body resting horizontally on bolster -->
+    <!-- Feet flopped naturally outward -->
+    <path d="M180 -5 L200 0 L195 -12 Z" />
+    <path d="M180 -5 L200 -10 L195 -18 Z" />
+    <!-- Legs over knee bolster -->
+    <path d="M180 -6 C100 -25 40 -25 0 -12 Z" />
+    <!-- Torso, Pelvis, Chest in neutral release -->
+    <path d="M0 -12 C-60 -18 -120 -18 -160 -12 Z" />
+    <!-- Arms resting palms up beside body -->
+    <path d="M-80 -8 C-60 -4 40 -4 60 -6 Z" stroke="#251E19" stroke-width="6" stroke-linecap="round" />
+    <!-- Head rested comfortably -->
+    <circle cx="-170" cy="-18" r="18" />
+  </g>
+
+  <text x="400" y="490" font-family="'Cormorant Garamond', Georgia, serif" font-size="20" font-weight="600" fill="#3D3228" text-anchor="middle" letter-spacing="1">SAVASANA · CONSCIOUS RESTORATION</text>
+</svg>

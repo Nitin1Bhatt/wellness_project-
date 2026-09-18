@@ -1,0 +1,6 @@
+{
+  "name": "Ashray — Private Yoga & Wellness",
+  "description": "A sanctuary for private yoga, mindful breathwork, and holistic wellness. Bespoke 1:1 mentorship and intimate morning circles guided by dedicated yoga masters.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

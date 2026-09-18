@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" width="100%" height="100%">
+  <defs>
+    <linearGradient id="therapBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7F1EB" />
+      <stop offset="50%" stop-color="#EEE3D7" />
+      <stop offset="100%" stop-color="#DDCBBA" />
+    </linearGradient>
+    <radialGradient id="therapGlow" cx="50%" cy="30%" r="45%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#EADBCC" stop-opacity="0.1" />
+    </radialGradient>
+    <linearGradient id="oliveGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#B28C56" />
+      <stop offset="100%" stop-color="#7C6036" />
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="750" fill="url(#therapBg)" />
+  <circle cx="300" cy="270" r="220" fill="url(#therapGlow)" />
+  
+  <!-- Subtle Lotus mandala accent -->
+  <path d="M300 130 C280 180 300 210 300 210 C300 210 320 180 300 130 Z" fill="#B28C56" opacity="0.25" />
+  <path d="M260 150 C260 190 285 215 285 215 C285 215 295 180 260 150 Z" fill="#B28C56" opacity="0.2" />
+  <path d="M340 150 C340 190 315 215 315 215 C315 215 305 180 340 150 Z" fill="#B28C56" opacity="0.2" />
+
+  <!-- Instructor Illustration: Women's Therapeutics, Prenatal & Spine Health -->
+  <g transform="translate(300, 310)">
+    <circle cx="0" cy="-140" r="42" fill="#261E18" />
+    <ellipse cx="0" cy="-172" rx="22" ry="18" fill="#1E1712" />
+
+    <!-- Head & Neck -->
+    <path d="M-17 -50 L-17 -15 C-17 10 -9 18 0 18 C9 18 17 10 17 -15 L17 -50 Z" fill="#D4AF92" />
+    <ellipse cx="0" cy="-75" rx="41" ry="50" fill="#DEBB9F" />
+    
+    <!-- Facial Features: Gentle warmth and reassuring smile -->
+    <path d="M-26 -92 Q-16 -97 -6 -92" stroke="#261E18" stroke-width="2.3" fill="none" stroke-linecap="round" />
+    <path d="M6 -92 Q16 -97 26 -92" stroke="#261E18" stroke-width="2.3" fill="none" stroke-linecap="round" />
+    <path d="M-24 -80 Q-16 -73 -8 -80" stroke="#3A2E25" stroke-width="2.2" fill="none" stroke-linecap="round" />
+    <path d="M8 -80 Q16 -73 24 -80" stroke="#3A2E25" stroke-width="2.2" fill="none" stroke-linecap="round" />
+    <path d="M0 -86 L1 -65 Q-2 -62 -4 -64" stroke="#C29A7B" stroke-width="1.8" fill="none" stroke-linecap="round" />
+    <path d="M-12 -50 Q0 -43 12 -50" stroke="#A75A38" stroke-width="2.2" fill="none" stroke-linecap="round" />
+
+    <!-- Soft Cream Tunic & Warm Antique Gold stole -->
+    <path d="M-105 95 C-90 -5 -35 -30 -18 -15 L18 -15 C35 -30 90 -5 105 95 L125 440 L-125 440 Z" fill="#FCFAF7" />
+    <path d="M-55 -10 C-35 50 -10 200 20 440 L80 440 C50 220 15 60 35 -10 Z" fill="url(#oliveGold)" opacity="0.88" />
+
+    <g transform="translate(0, 85)">
+      <circle cx="0" cy="5" r="18" fill="#D4AF92" />
+      <path d="M-8 0 Q0 -10 8 0 Q0 10 -8 0 Z" fill="#B28C56" />
+    </g>
+  </g>
+
+  <!-- Bottom Badge Strip -->
+  <rect x="50" y="660" width="500" height="60" rx="30" fill="#FAF7F2" stroke="#DACDBE" stroke-width="1.5" />
+  <text x="300" y="696" font-family="'Cormorant Garamond', serif" font-size="19" font-weight="600" fill="#201A15" text-anchor="middle" letter-spacing="1">FACULTY · WOMEN’S THERAPEUTICS &amp; PRENATAL</text>
+</svg>

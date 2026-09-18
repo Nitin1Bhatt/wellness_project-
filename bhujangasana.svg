@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cobraBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FCFAF6" />
+      <stop offset="70%" stop-color="#EFE7DC" />
+      <stop offset="100%" stop-color="#DDD0BF" />
+    </linearGradient>
+    <radialGradient id="cobraGlow" cx="50%" cy="38%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#E0D0B0" stop-opacity="0.1" />
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#cobraBg)" />
+  <circle cx="400" cy="270" r="210" fill="url(#cobraGlow)" />
+  <line x1="80" y1="460" x2="720" y2="460" stroke="#D1C3AF" stroke-width="2" />
+  <rect x="150" y="455" width="500" height="8" rx="4" fill="#C28B47" opacity="0.3" />
+
+  <!-- Bhujangasana: Prone backbend, broad collarbones -->
+  <g transform="translate(400, 460)" fill="#251E19">
+    <!-- Legs flat on mat extending to toes -->
+    <path d="M-20 0 L180 0 C190 0 190 -8 180 -8 L-20 -15 Z" />
+
+    <!-- Pelvis rooted down into mat -->
+    <ellipse cx="-20" cy="-10" rx="35" ry="15" />
+
+    <!-- Lumbar & Thoracic gentle arching curve upward -->
+    <path d="M-40 -12 C-70 -20 -100 -70 -115 -140 L-95 -140 C-80 -75 -50 -30 -25 -18 Z" />
+
+    <!-- Arms bent under shoulders with palms flat -->
+    <path d="M-115 -140 L-130 -60 L-110 0 L-95 0 L-115 -55 L-100 -140 Z" />
+
+    <!-- Broad collarbones and throat lifting lightly -->
+    <path d="M-115 -140 C-125 -165 -120 -185 -110 -205 L-95 -195 C-102 -180 -105 -165 -98 -140 Z" />
+    <circle cx="-105" cy="-215" r="22" />
+    <!-- Hair Chignon -->
+    <ellipse cx="-125" cy="-210" rx="12" ry="14" fill="#1A1410" />
+  </g>
+
+  <text x="400" y="525" font-family="'Cormorant Garamond', Georgia, serif" font-size="20" font-weight="600" fill="#3D3228" text-anchor="middle" letter-spacing="1">BHUJANGASANA · COBRA POSE</text>
+</svg>

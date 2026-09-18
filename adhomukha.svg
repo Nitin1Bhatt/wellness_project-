@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="dogBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FAF7F2" />
+      <stop offset="70%" stop-color="#EFE6DA" />
+      <stop offset="100%" stop-color="#DCCFBD" />
+    </linearGradient>
+    <radialGradient id="dogGlow" cx="50%" cy="38%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#DAC7A5" stop-opacity="0.1" />
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#dogBg)" />
+  <circle cx="400" cy="270" r="210" fill="url(#dogGlow)" />
+  <line x1="80" y1="460" x2="720" y2="460" stroke="#D1C3AF" stroke-width="2" />
+  <rect x="150" y="455" width="500" height="8" rx="4" fill="#B66E43" opacity="0.3" />
+
+  <!-- Adho Mukha Svanasana: Inverted V-shape alignment -->
+  <g transform="translate(400, 460)" fill="#251E19">
+    <!-- Hands rooted at front -->
+    <path d="M-180 0 C-180 -10 -170 -10 -160 0 Z" />
+    <!-- Feet grounded at back -->
+    <path d="M160 0 C160 -10 170 -10 180 0 Z" />
+
+    <!-- Arms extending from wrists to shoulders -->
+    <path d="M-170 0 L-70 -160 L-50 -160 L-150 0 Z" />
+    
+    <!-- Torso and spine lengthening to apex of sitting bones -->
+    <path d="M-60 -160 L0 -240 L10 -230 L-40 -150 Z" />
+    
+    <!-- Pelvis apex -->
+    <circle cx="0" cy="-235" r="25" />
+
+    <!-- Legs extending from sitting bones down to heels -->
+    <path d="M10 -235 L170 0 L150 0 L0 -215 Z" />
+
+    <!-- Head relaxed between upper arms, neck soft -->
+    <circle cx="-90" cy="-140" r="18" />
+  </g>
+
+  <text x="400" y="525" font-family="'Cormorant Garamond', Georgia, serif" font-size="20" font-weight="600" fill="#3D3228" text-anchor="middle" letter-spacing="1">ADHO MUKHA SVANASANA · DOWNWARD-FACING DOG</text>
+</svg>

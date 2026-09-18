@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="treeBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FBF8F3" />
+      <stop offset="70%" stop-color="#EFE7DC" />
+      <stop offset="100%" stop-color="#DDD1BF" />
+    </linearGradient>
+    <radialGradient id="treeGlow" cx="50%" cy="38%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#DECCA8" stop-opacity="0.1" />
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#treeBg)" />
+  <circle cx="400" cy="270" r="210" fill="url(#treeGlow)" />
+  <line x1="120" y1="520" x2="680" y2="520" stroke="#D1C3AF" stroke-width="2" />
+  <rect x="250" y="515" width="300" height="8" rx="4" fill="#6F856C" opacity="0.3" />
+
+  <!-- Vrikshasana (Tree Pose) Silhouette: Single-leg root, hands overhead in Anjali Mudra -->
+  <g transform="translate(400, 520)" fill="#251E19">
+    <!-- Standing Base Foot & Leg -->
+    <path d="M-8 0 C-8 -12 -5 -18 0 -18 C5 -18 8 -12 8 0 Z" />
+    <path d="M-7 -18 L-8 -140 L8 -140 L7 -18 Z" />
+    <path d="M-9 -140 L-10 -250 L10 -250 L9 -140 Z" />
+    <!-- Bent Leg: Foot pressing firmly into inner standing thigh -->
+    <path d="M-8 -230 L-75 -170 C-85 -160 -70 -145 -60 -155 L-8 -210 Z" fill="#251E19" />
+    <path d="M-75 -170 L-25 -145 L-10 -155 Z" />
+    
+    <!-- Pelvis & Spine -->
+    <path d="M-18 -250 L-18 -310 L18 -310 L18 -250 Z" />
+    <path d="M-20 -310 L-22 -380 L22 -380 L20 -310 Z" />
+    <!-- Head & Neck -->
+    <rect x="-6" y="-405" width="12" height="25" rx="3" />
+    <circle cx="0" cy="-420" r="20" />
+    <!-- Graceful Arms swept upward above the crown in prayer -->
+    <path d="M-20 -375 C-35 -405 -25 -470 0 -500 C25 -470 35 -405 20 -375 L12 -375 C24 -405 18 -465 0 -485 C-18 -465 -24 -405 -12 -375 Z" fill="#251E19" />
+  </g>
+
+  <text x="400" y="565" font-family="'Cormorant Garamond', Georgia, serif" font-size="20" font-weight="600" fill="#3D3228" text-anchor="middle" letter-spacing="1">VRIKSHASANA · TREE POSE</text>
+</svg>

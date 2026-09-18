@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="poseBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FBF8F3" />
+      <stop offset="70%" stop-color="#F0E8DC" />
+      <stop offset="100%" stop-color="#DFD3C1" />
+    </linearGradient>
+    <radialGradient id="poseSun" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#FDFBF7" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#E2D4C1" stop-opacity="0.1" />
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#poseBg)" />
+  <circle cx="400" cy="270" r="210" fill="url(#poseSun)" />
+  <line x1="120" y1="520" x2="680" y2="520" stroke="#D1C3AF" stroke-width="2" />
+  
+  <!-- Foundation Line & Subtle Rishikesh Stone Floor -->
+  <rect x="250" y="515" width="300" height="8" rx="4" fill="#B66E43" opacity="0.3" />
+
+  <!-- Tadasana (Mountain Pose) Silhouette: Grounded, Plumbline Alignment -->
+  <g transform="translate(400, 520)" fill="#251E19">
+    <!-- Feet grounded together -->
+    <path d="M-14 0 C-14 -12 -8 -18 0 -18 C8 -18 14 -12 14 0 Z" fill="#251E19" />
+    <!-- Lower Legs & Calves -->
+    <path d="M-12 -18 L-14 -140 L14 -140 L12 -18 Z" />
+    <!-- Knees & Thighs -->
+    <path d="M-15 -140 L-18 -250 L18 -250 L15 -140 Z" />
+    <!-- Pelvis & Lower Abdomen -->
+    <path d="M-22 -250 L-20 -310 L20 -310 L22 -250 Z" />
+    <!-- Ribcage & Elongated Spine -->
+    <path d="M-24 -310 L-28 -390 L28 -390 L24 -310 Z" />
+    <!-- Shoulders & Upper Back -->
+    <path d="M-42 -390 C-30 -406 30 -406 42 -390 L30 -370 L-30 -370 Z" />
+    <!-- Arms lengthening softly downward along the seam of body -->
+    <path d="M-40 -385 L-44 -260 L-36 -260 L-32 -385 Z" />
+    <path d="M40 -385 L44 -260 L36 -260 L32 -385 Z" />
+    <!-- Neck -->
+    <rect x="-8" y="-420" width="16" height="30" rx="3" />
+    <!-- Crown of Head lengthening upwards -->
+    <circle cx="0" cy="-440" r="22" />
+    <!-- Chignon Hair bun -->
+    <ellipse cx="0" cy="-466" rx="14" ry="10" fill="#1C1612" />
+  </g>
+
+  <!-- Elegant Typographic Subtext in Card -->
+  <text x="400" y="565" font-family="'Cormorant Garamond', Georgia, serif" font-size="20" font-weight="600" fill="#3D3228" text-anchor="middle" letter-spacing="1">TADASANA · MOUNTAIN POSE</text>
+</svg>

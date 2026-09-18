@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" width="100%" height="100%">
+  <defs>
+    <linearGradient id="restBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7F3EC" />
+      <stop offset="50%" stop-color="#ECE2D0" />
+      <stop offset="100%" stop-color="#DDD0BA" />
+    </linearGradient>
+    <radialGradient id="restGlow" cx="50%" cy="30%" r="45%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#EBE0CF" stop-opacity="0.1" />
+    </radialGradient>
+    <linearGradient id="terracottaSoft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C67D55" />
+      <stop offset="100%" stop-color="#9C522B" />
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="750" fill="url(#restBg)" />
+  <circle cx="300" cy="270" r="220" fill="url(#restGlow)" />
+  
+  <!-- Subtle Crescent Moon & Breath Wave Motif -->
+  <path d="M220 220 A90 90 0 0 0 380 220 A105 105 0 0 1 220 220" fill="#C28B47" opacity="0.15" />
+
+  <!-- Instructor Illustration: Restorative, Pranayama & Yoga Nidra -->
+  <g transform="translate(300, 310)">
+    <!-- Soft coiled hair bun -->
+    <circle cx="0" cy="-140" r="42" fill="#201A15" />
+    <path d="M-30 -130 Q-40 -80 -25 -20" stroke="#201A15" stroke-width="8" fill="none" stroke-linecap="round" />
+
+    <!-- Head & Neck -->
+    <path d="M-17 -50 L-17 -15 C-17 10 -9 18 0 18 C9 18 17 10 17 -15 L17 -50 Z" fill="#DDBCA1" />
+    <ellipse cx="0" cy="-75" rx="41" ry="50" fill="#E5C7AC" />
+    
+    <!-- Facial Features: Deep peace and somatic awareness -->
+    <path d="M-26 -92 Q-16 -97 -6 -92" stroke="#251E19" stroke-width="2.2" fill="none" stroke-linecap="round" />
+    <path d="M6 -92 Q16 -97 26 -92" stroke="#251E19" stroke-width="2.2" fill="none" stroke-linecap="round" />
+    <!-- Peaceful closed eyes in conscious relaxation -->
+    <path d="M-24 -80 Q-16 -73 -8 -80" stroke="#3A2D23" stroke-width="2.4" fill="none" stroke-linecap="round" />
+    <path d="M8 -80 Q16 -73 24 -80" stroke="#3A2D23" stroke-width="2.4" fill="none" stroke-linecap="round" />
+    <path d="M0 -86 L1 -65 Q-2 -62 -4 -64" stroke="#C9A282" stroke-width="1.8" fill="none" stroke-linecap="round" />
+    <path d="M-11 -50 Q0 -44 11 -50" stroke="#9A4E31" stroke-width="2.2" fill="none" stroke-linecap="round" />
+
+    <!-- Pure Linen Drape & Terracotta stole -->
+    <path d="M-105 95 C-90 -5 -35 -30 -18 -15 L18 -15 C35 -30 90 -5 105 95 L125 440 L-125 440 Z" fill="#FAF8F5" />
+    <path d="M-45 -10 C-15 50 -30 200 -10 440 L45 440 C25 220 30 60 45 -10 Z" fill="url(#terracottaSoft)" opacity="0.88" />
+
+    <!-- Hands resting in Gyan Mudra at heart / solar plexus -->
+    <g transform="translate(0, 85)">
+      <ellipse cx="-20" cy="5" rx="14" ry="18" fill="#DDBCA1" />
+      <ellipse cx="20" cy="5" rx="14" ry="18" fill="#DDBCA1" />
+      <circle cx="-20" cy="5" r="5" fill="#C28B47" opacity="0.6" />
+      <circle cx="20" cy="5" r="5" fill="#C28B47" opacity="0.6" />
+    </g>
+  </g>
+
+  <!-- Bottom Badge Strip -->
+  <rect x="50" y="660" width="500" height="60" rx="30" fill="#FAF7F2" stroke="#D8CCBA" stroke-width="1.5" />
+  <text x="300" y="696" font-family="'Cormorant Garamond', serif" font-size="19" font-weight="600" fill="#201A15" text-anchor="middle" letter-spacing="1">FACULTY · RESTORATIVE &amp; YOGA NIDRA</text>
+</svg>

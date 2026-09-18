@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#EFE5D8" />
+      <stop offset="45%" stop-color="#F5ECE1" />
+      <stop offset="70%" stop-color="#DFD5C6" />
+      <stop offset="100%" stop-color="#C5B7A3" />
+    </linearGradient>
+    <linearGradient id="sunGlow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E5AF6E" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#FAF5EE" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="gangaRiver" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#B2BEB5" />
+      <stop offset="40%" stop-color="#9EACA2" />
+      <stop offset="100%" stop-color="#809285" />
+    </linearGradient>
+    <linearGradient id="mountainFar" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#A29888" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#887E6E" stop-opacity="0.75" />
+    </linearGradient>
+    <linearGradient id="mountainMid" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#726B5D" />
+      <stop offset="100%" stop-color="#554F43" />
+    </linearGradient>
+    <linearGradient id="terraceStone" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF7F2" />
+      <stop offset="100%" stop-color="#E8E0D2" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sky Canvas -->
+  <rect width="1200" height="800" fill="url(#skyGrad)" />
+
+  <!-- Himalayan Dawn Sun -->
+  <circle cx="600" cy="280" r="160" fill="url(#sunGlow)" />
+  <circle cx="600" cy="280" r="70" fill="#F4DFC3" opacity="0.65" />
+
+  <!-- Distant Himalayan Peaks -->
+  <path d="M0 380 L180 260 L360 340 L520 220 L720 350 L910 240 L1080 320 L1200 270 L1200 550 L0 550 Z" fill="url(#mountainFar)" />
+  
+  <!-- Mid-Range Himalayan Ridges with Sage / Pine flora -->
+  <path d="M0 430 L160 350 L320 410 L480 330 L660 420 L840 340 L1020 410 L1200 370 L1200 560 L0 560 Z" fill="url(#mountainMid)" opacity="0.85" />
+
+  <!-- Sacred Ganga Waters flowing through the valley -->
+  <path d="M0 520 Q300 490 600 530 T1200 510 L1200 680 L0 680 Z" fill="url(#gangaRiver)" opacity="0.85" />
+  
+  <!-- Morning water reflection lines -->
+  <line x1="420" y1="550" x2="780" y2="550" stroke="#FAF7F2" stroke-width="2" opacity="0.4" stroke-dasharray="14,10" />
+  <line x1="480" y1="575" x2="720" y2="575" stroke="#F4DFC3" stroke-width="1.5" opacity="0.5" stroke-dasharray="24,12" />
+  <line x1="510" y1="600" x2="690" y2="600" stroke="#FAF7F2" stroke-width="1" opacity="0.3" stroke-dasharray="16,8" />
+
+  <!-- Peaceful Wooden & Stone Studio Terrace in Foreground -->
+  <path d="M0 640 L1200 640 L1200 800 L0 800 Z" fill="url(#terraceStone)" />
+  <line x1="0" y1="640" x2="1200" y2="640" stroke="#D1C6B4" stroke-width="3" />
+
+  <!-- Meditative Yoga Silhouette (Gentle Lotus with Gyan Mudra) -->
+  <g transform="translate(600, 640)" fill="#2C241E">
+    <!-- Base Mat in warm terracotta -->
+    <ellipse cx="0" cy="5" rx="140" ry="12" fill="#B66E43" opacity="0.75" />
+    <!-- Seated Figure -->
+    <!-- Head -->
+    <circle cx="0" cy="-140" r="22" />
+    <path d="M-8 -156 C-6 -168 6 -168 8 -156 C14 -148 10 -138 0 -136 C-10 -138 -14 -148 -8 -156 Z" fill="#201A15" />
+    <!-- Neck & Torso -->
+    <path d="M-10 -120 L10 -120 L18 -60 L-18 -60 Z" />
+    <!-- Shoulders & Upper Back -->
+    <path d="M-36 -108 C-16 -124 16 -124 36 -108 C30 -80 22 -60 18 -55 L-18 -55 C-22 -60 -30 -80 -36 -108 Z" />
+    <!-- Arms in gentle prayer/meditation angle -->
+    <path d="M-34 -104 Q-60 -50 -46 -15 Q-40 0 -15 -10 L-20 -25 Q-42 -30 -30 -85 Z" />
+    <path d="M34 -104 Q60 -50 46 -15 Q40 0 15 -10 L20 -25 Q42 -30 30 -85 Z" />
+    <!-- Cross-legged Foundation (Padmasana) -->
+    <path d="M-75 -10 C-65 -45 -25 -55 0 -45 C25 -55 65 -45 75 -10 C60 10 25 15 0 12 C-25 15 -60 10 -75 -10 Z" />
+  </g>
+
+  <!-- Ambient Morning Lotus Petals Subtle Float -->
+  <path d="M180 720 C185 710 195 715 190 725 C185 735 175 730 180 720 Z" fill="#B66E43" opacity="0.3" />
+  <path d="M1020 700 C1025 690 1035 695 1030 705 C1025 715 1015 710 1020 700 Z" fill="#B66E43" opacity="0.3" />
+</svg>
